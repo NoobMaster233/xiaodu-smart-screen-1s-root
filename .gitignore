@@ -1,0 +1,10 @@
+work/
+.venv/
+__pycache__/
+*.pyc
+dist/
+*.img
+*.ko
+*.apk
+*.pub
+adbkey*

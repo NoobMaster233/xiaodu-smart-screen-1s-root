@@ -1,0 +1,12 @@
+小度智能屏1S XDH-29-B1
+
+先打开 README.md，然后按 docs/01-usb-meta.md 开始。
+完整USB/META与镜像构建流程首版支持Linux，实测主机为Debian12。
+Windows可用官方ADB执行已授权后的基础命令；本包不把未验证的Windows/WSL USB路径标成一键可用。
+
+推荐入口：
+  bash scripts/setup-linux.sh
+  .venv/bin/python xiaodu.py --help
+
+只接线不会自动root；机器必须用原装电源供电。
+本包没有其他设备的boot/recovery/seccfg镜像，没有任何人的ADB私钥。

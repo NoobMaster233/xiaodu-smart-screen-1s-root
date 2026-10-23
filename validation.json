@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "public_toolkit_version": "0.1.0",
+  "python_compile": "passed",
+  "offline_unit_tests": {
+    "passed": 10,
+    "total": 10
+  },
+  "subcommand_help": {
+    "passed": 17,
+    "total": 17
+  },
+  "markdown_local_links": "passed",
+  "private_device_data_scan": "passed",
+  "live_readonly_doctor": {
+    "passed": true,
+    "model": "XDH-29-B1",
+    "firmware": "DuerShow_MT8167s_v1.68.2.20250324172557685.R",
+    "scope": "Read-only ADB; no settings changed"
+  },
+  "offline_native_boot_build": {
+    "passed": true,
+    "signature_verified_with_openssl": true,
+    "original_kernel_preserved": true,
+    "owner_key_embedded": false
+  },
+  "offline_hacc_module_and_plan": {
+    "passed": true,
+    "module_bytes": 10716,
+    "candidate_matched_historical_verified_algorithm": true,
+    "hardware_crypto_responses": "simulated from original private proof; not executed on device in this check"
+  },
+  "public_refactor_hardware_write_branches_retested": false,
+  "new_device_flash_reboot_or_kernel_module_load_for_publication": false,
+  "cross_device_validation": false,
+  "root_transport_tests": {
+    "su_quoting": "passed",
+    "binary_stdin_for_compound_bdft_command": "passed"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model": "XDH-29-B1",
+  "soc": "MT8167",
+  "firmware": "DuerShow_MT8167s_v1.68.2.20250324172557685.R",
+  "kernel_release": "4.4.95+",
+  "kernel_version": "#2 SMP PREEMPT Mon Mar 24 18:05:14 CST 2025",
+  "lk_sha256": "1b20814444fc7acf5a333ba6643a3ae7e65deb58bd37a12b0ffebe8bf622036a",
+  "donor_sha256": "b0c6694c35929b0b90ca6081c97fe2eb2ca6f0d8fbd0919af6e11606c621989a",
+  "boot_kernel_sha256": "d53c3a69c7c7145a3b8c716bcd32468db00e34ab5d7f505bd66224e66d99ba66",
+  "boot_original_sha256": [
+    "bf092846e4c31ae385610fe62a7775fbc28bc839e9d53fbc8af155af311b7f76",
+    "b11ad1102440300ab78a9c8456f7748ad522c7f1bda62bb63249bd512474ee3a"
+  ],
+  "avb_certificate_sha256": "8ad127abae8285b582ea36745f220ab8fe397ffb3b068df19ca22d122c7b3b86",
+  "seccfg_bytes": 262144,
+  "functions": {
+    "printk": 3222259448,
+    "masp_hal_sp_hacc_enc": 3226800224,
+    "masp_hal_sp_hacc_dec": 3226800272
+  },
+  "verification_scope": "One owner device; exact firmware, LK, vendor module ABI and kernel required. No other device validation claimed."
+}
